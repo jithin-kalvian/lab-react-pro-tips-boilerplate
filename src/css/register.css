@@ -1,0 +1,40 @@
+.form {
+    min-height: 35vh;
+    max-height: fit-content;
+    width: 40vw;
+    background-color: rgba(194, 191, 191, 0.982);
+    border-radius: 1vh;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vh;
+
+    text-align: center;
+
+
+}
+
+input {
+
+    width: 22vw;
+    /* margin-left: 9vw; */
+    margin-top: 2vh; 
+
+
+} 
+
+button {
+    width: 23vw;
+    /* margin-left: 9vw; */
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}

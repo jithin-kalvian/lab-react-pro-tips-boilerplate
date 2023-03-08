@@ -1,0 +1,23 @@
+.nav  {
+    background-color: black;
+    width: 100vw;
+    height: 4vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding : 0 1vw 0 1vw;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+*{
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+}
+
+.routes {
+    display: flex;
+    gap: 1vw;
+
+}
